@@ -9,15 +9,15 @@ sumar( 1, 2);
 
 /***********/
 
-const sumar2 = function(n1, n2) { Parametros
+const sumar2 = function(n1, n2) { // Parametros
     console.log( n1 + n2);
 };
 sumar2(5, 10); // Argumentos
 
 
 
-function fremi (nombre, appat, apmat) {
-    console.log('nombre',+ 'apmat', +'apmat');
+ function fremi (nombre, appat, apmat) {
+    console.log(nombre, appat, apmat);
 };
 
-fremi('Freddy Guadalupe', +'Morales', +'Izquierdo');
+fremi('I am: Freddy Guadalupe', 'Morales','Izquierdo');
