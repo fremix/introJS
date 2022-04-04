@@ -20,10 +20,13 @@ const divide = function() {
  */
 /** Arrow Functions */
 
-const sumar = ( numero = 0, numero2 = 0) => {
-    console.log( numero );
-}
-sumar(30, 30);
+const sumaArrow = () => 2 + 11;
+
+const resultado = sumaArrow();
+
+console.log(resultado);
+
+
 
 const resta = ( numero = 0, numero2 = 0) => {
     console.log( numero - numero2);

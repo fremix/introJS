@@ -1,5 +1,5 @@
 /**
- * Fucniones - Function Expression
+ * Funciones - Function Expression
  */
 /*
 function sumar( numero = 0, numero2 = 0) { // Function declaration
