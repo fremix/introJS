@@ -18,7 +18,7 @@ const nuevoArray2 = tecnologias.filter( tech => tech !== 'React');
  console.log(nuevoArray2);
 
 
-const nuevoArray3 = tecnologias.filter( tech => tech === 'NodeJS');
+const nuevoArray3 = tecnologias.filter( tecno => tecno === 'React');
 
 console.log(nuevoArray3);
 
