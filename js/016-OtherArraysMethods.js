@@ -38,7 +38,9 @@ Cuando se le agregan dos o mas parametros, se tiene que agregar parentesis y se 
 
 */
 
-/** Map */
+/** Map .- Crea un nuevo arreglo con arrow function con map */
 const arrayMap = tecnologias.map( tech => tech);
+const arraysMap = familia.map( fami => fami);
 
 console.log(arrayMap);
+console.log(arraysMap);
