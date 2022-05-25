@@ -1,4 +1,4 @@
-/** Programación Orientada a Objetos */
+/** Programación Orientada a Objetos || Prototypes*/
 
 /** Object Literal */
 const producto = {
@@ -7,17 +7,33 @@ const producto = {
 }
 
 /** Object Constructor */
-function Producto(nombre, precio, disponible) {
+function Cliente(nombre, apellido) {
     this.nombre = nombre;
-    this.precio = precio;
-    this.disponible = disponible;
+    this.apellido = apellido;
+}
+Cliente.prototype.formatearCliente = function( ) {
+    return `El Cliente ${this.nombre}  ${this.apellido}`;
 }
 
-const producto2 = new Producto('Monitor Curvo de 49"', 800, 'true');
-const producto3 = new Producto('Laptop"', 500, 'false');
-const producto4 = new Producto('Telefono M10"', 1500, 'false');
-const producto5 = new Producto('Nintendo"', 800, 'true');
 
-console.log(producto2, producto3, producto4, producto5);
+function Producto(nombre, precio) {
+    this.nombre = nombre;
+    this.precio = precio;
+}
+/** PROTOTYPE nos va a permitir crear funciones que solo se utilizan en un objeto en especifico*/
+Producto.prototype.formatearProducto = function( ) {
+    return `El producto ${this.nombre} tiene un  precio de: $ ${this.precio}`;
+}
+
+const producto2 = new Producto('Monitor Curvo de 49"', 800);
+const producto3 = new Producto('Laptop"', 500);
+const cliente = new Cliente ('Freddy', 'Morales');
+
+
+console.log(producto2);
+console.log(producto2.formatearProducto() );
+console.log(producto3.formatearProducto() );
+
+
 
 
