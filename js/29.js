@@ -7,7 +7,7 @@ console.log(numero1);
 
 try {
     console.log(numero2);
-} catch (error) {
+} catch (aqui esta el error) {
     console.log('error');
 }
 
