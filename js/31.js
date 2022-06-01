@@ -12,3 +12,4 @@ if(Notification.permission == 'granted') {
         body: 'Código con Freddy, los mejores tutoriales'
     });
 }
+
