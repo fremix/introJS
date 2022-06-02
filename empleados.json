@@ -1,0 +1,29 @@
+{
+    "empleados" : [
+        {
+            "id" : 1,
+            "nombre" : "fr3m1",
+            "puesto" : "Desarrollador Web"
+        },
+        {
+            "id" : 2,
+            "nombre" : "Anel",
+            "puesto" : "UX / UI"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Jesus",
+            "puesto" : "Diseñador"
+        },
+        {
+            "id" : 4,
+            "nombre" : "Valeria",
+            "puesto" : "Servidores"
+        },
+        {
+            "id" : 5,
+            "nombre" : "Diegui",
+            "puesto" : "Redes"
+        }
+    ]
+}
